@@ -16,9 +16,8 @@ const Accordion = ({ data, setShowMenu }) => {
       <article>
         {data.map((item, index) =>
           !item.childrens ? (
-            <Link to={item.to}>
+            <Link to={item.to} key={index}>
               <AccordionItem
-                key={index}
                 active={active}
                 handleToggle={handleToggle}
                 item={item}

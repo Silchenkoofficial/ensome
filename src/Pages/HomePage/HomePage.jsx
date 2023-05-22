@@ -1,9 +1,11 @@
 import React from "react";
 
-import { Button } from "src/Components";
+import { Button, Switch, Tabs, Link } from "src/Components";
 
 import { FiPlayCircle } from "react-icons/fi";
 import HomeBG from "src/assets/img/home-bg.png";
+
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 import { Section } from "src/Pages/Components";
 import { Container } from "src/Layouts";
@@ -12,33 +14,18 @@ const HomePage = () => {
   return (
     <Section>
       <Container>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
-        <h1>Home Page</h1>
+        <Link to="/">
+          Read more
+          <FaLongArrowAltRight />
+        </Link>
+        <Link to="/" disabled>
+          Read more
+          <FaLongArrowAltRight />
+        </Link>
+        <Link to="/">Read more</Link>
+        <Link to="/" disabled>
+          Read more
+        </Link>
         {/* <div
           style={{
             padding: "75px 0",
