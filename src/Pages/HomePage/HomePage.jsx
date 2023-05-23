@@ -1,11 +1,11 @@
 import React from "react";
-
-import { Button, Switch, Tabs, Link } from "src/Components";
-
 import { FiPlayCircle } from "react-icons/fi";
-import HomeBG from "src/assets/img/home-bg.png";
 
-import { FaLongArrowAltRight } from "react-icons/fa";
+import { Button } from "src/Components";
+
+import THEME from "src/theme";
+
+import HomeBG from "src/assets/img/home-bg.png";
 
 import { Section } from "src/Pages/Components";
 import { Container } from "src/Layouts";
@@ -14,19 +14,7 @@ const HomePage = () => {
   return (
     <Section>
       <Container>
-        <Link to="/">
-          Read more
-          <FaLongArrowAltRight />
-        </Link>
-        <Link to="/" disabled>
-          Read more
-          <FaLongArrowAltRight />
-        </Link>
-        <Link to="/">Read more</Link>
-        <Link to="/" disabled>
-          Read more
-        </Link>
-        {/* <div
+        <div
           style={{
             padding: "75px 0",
             display: "flex",
@@ -34,9 +22,11 @@ const HomePage = () => {
             justifyContent: "space-between",
           }}
         >
-          <div>
-            <h1>Find true power in your data with Ensome</h1>
-            <p>
+          <div style={{ flex: 1 }}>
+            <h1 style={{ ...THEME.FONTS.H[1], marginBottom: "30px" }}>
+              Find true power in your data with Ensome
+            </h1>
+            <p style={{ ...THEME.FONTS.P[1] }}>
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo inventore veritatis et quasi architecto beatae vitae
@@ -46,6 +36,7 @@ const HomePage = () => {
               style={{
                 display: "flex",
                 gap: "20px",
+                marginTop: "30px",
               }}
             >
               <Button small>Learn more</Button>
@@ -54,7 +45,7 @@ const HomePage = () => {
               </Button>
             </div>
           </div>
-          <div>
+          <div style={{ flex: 1 }}>
             <img
               src={HomeBG}
               style={{
@@ -63,7 +54,29 @@ const HomePage = () => {
               }}
             />
           </div>
-        </div> */}
+        </div>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
+        <h2>HELLo</h2>
       </Container>
     </Section>
   );
