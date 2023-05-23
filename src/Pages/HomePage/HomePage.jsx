@@ -1,7 +1,7 @@
 import React from "react";
 import { FiPlayCircle } from "react-icons/fi";
 
-import { Button } from "src/Components";
+import { Button, Link } from "src/Components";
 
 import THEME from "src/theme";
 
