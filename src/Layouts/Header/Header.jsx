@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import THEME from "src/theme";
 
-import { Logo, Button, Burger, Link } from "src/Components";
+import { Logo, Button, Burger } from "src/Components";
 import { Navbar } from "src/Widgets";
 import { FiPlayCircle } from "react-icons/fi";
 
